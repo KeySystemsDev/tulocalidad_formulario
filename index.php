@@ -67,16 +67,16 @@
         <i class="fa fa-chain-broken"></i><input type="url" placeholder="Web" name="i_web">
       </div>
       <div class="blockinput">
-        <i class="fa fa-phone-square"></i><input type="number" maxlength="11" placeholder="Telefono Local" name="i_local" required>
+        <i class="fa fa-phone-square"></i><input type="text" maxlength="11" placeholder="Telefono Local" name="i_local" required>
       </div>
       <div class="blockinput">
-        <i class="fa fa-phone-square"></i><input type="number" maxlength="11" placeholder="Telefono Local 2" name="i_local_2">
+        <i class="fa fa-phone-square"></i><input type="text" maxlength="11" placeholder="Telefono Local 2" name="i_local_2">
       </div>
       <div class="blockinput">
-        <i class="fa fa-phone-square"></i><input type="number" maxlength="11" placeholder="Telefono Local 3" name="i_local_3">
+        <i class="fa fa-phone-square"></i><input type="text" maxlength="11" placeholder="Telefono Local 3" name="i_local_3">
       </div>
       <div class="blockinput">
-        <i class="fa fa-tablet"></i><input type="number" maxlength="11" placeholder="Telefono Movil" name="i_movil">
+        <i class="fa fa-tablet"></i><input type="text" maxlength="11" placeholder="Telefono Movil" name="i_movil">
       </div>
     </div>
     <button type="submit">Registrar</button>
