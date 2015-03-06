@@ -6,9 +6,12 @@
   <title>.:Tu Localidad:.</title>
 </head>
 <body>
-  <h2> <a href="http://dribbble.com/shots/899672-Login-Form">this dribbble shot</a> made by <a href="http://dribbble.com/ionuss">Ionut Zamfir</a>.</h2>
+
   <div class="ribbon"></div>
   <div class="login">
+  <div>
+    <img class="img-logo-tulocalidad"src="img/tulocalidad.png">
+  </div>
   <h1>Tu Localidad.</h1>
   <p>Registra tu empresa para el directorio</p>
   <form name="formulario" action="procesar.php" method="post">
@@ -79,9 +82,9 @@
     <button type="submit">Registrar</button>
   </form>
   </div>
-  <hr>
-
-  <h2>Un directorio pensado para ti ...</h2>
+  <br>
+  <br>
+  <!--<h2>Un directorio pensado para ti ...</h2>
   <div class="ribbon ior"></div>
   <div class="login io">
     <div class="press"> <span></span></div>
@@ -89,5 +92,15 @@
     <h1>Descargala aqui</h1>
     <a href="https://play.google.com/store/apps/details?id=com.ionicframework.tulocalidad511234">Google PLay</a>
   </div>
+  <br><br>-->
+
+  <h2>Un directorio pensado para ti ...</h2>
+  <div class="ribbon ior"></div>
+  <div class="andrid-play">
+    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.ionicframework.tulocalidad511234">
+      <img class="android-img" src="img/Download-Android-App.png" alt="ggIO">
+    </a>
+  </div>
   <br><br>
+
 </body>
