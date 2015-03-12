@@ -12,7 +12,6 @@
   <div>
     <img class="img-logo-tulocalidad"src="img/tulocalidad.png">
   </div>
-  <h1>Tu Localidad.</h1>
   <p>Registra tu empresa para el directorio</p>
   <form name="formulario" action="procesar.php" method="post">
     <div class="input">
