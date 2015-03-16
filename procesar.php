@@ -49,28 +49,6 @@
 
     
     $result = mysql_query($sql);
-    header('Location: http://keysystems.com.ve/tulocalidad/'); 
-
-
-/*    $sql = "INSERT INTO t_empresas (nombre_empresa, 
-    									rif_empresa, 
-    									id_categoria, 
-    									correo_empresa, 
-    									id_estado, 
-    									url_empresa, 
-    									telefono_empresa, 
-    									telefono_2_empresa, 
-    									telefono_3_empresa, 
-    									telefono_movil_empresa)
-                  VALUES ('$i_empresa', 
-                  		  '$i_rif', 
-                  		  '$i_categoria', 
-                  		  '$i_correo', 
-                  		  '$i_estado', 
-                  		  '$i_web', 
-                  		  '$i_local', 
-                  		  '$i_local_2', 
-                  		  '$i_local_3',
-                  		  '$i_movil')',$link);*/
+    header('Location: http://keysystems.com.ve/tulocalidad/procesado'); 
 
 ?>
