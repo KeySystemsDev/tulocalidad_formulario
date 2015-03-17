@@ -31,6 +31,7 @@
                          position_empresa,
                          positionmap_empresa,
                          horario_empresa) 
+<<<<<<< HEAD
                   VALUES ('$i_empresa', 
                          '$i_rif', 
                          '$i_categoria', 
@@ -62,15 +63,26 @@
     									telefono_2_empresa, 
     									telefono_3_empresa, 
     									telefono_movil_empresa)
+=======
+>>>>>>> origin/master
                   VALUES ('$i_empresa', 
-                  		  '$i_rif', 
-                  		  '$i_categoria', 
-                  		  '$i_correo', 
-                  		  '$i_estado', 
-                  		  '$i_web', 
-                  		  '$i_local', 
-                  		  '$i_local_2', 
-                  		  '$i_local_3',
-                  		  '$i_movil')',$link);*/
+                         '$i_rif', 
+                         '$i_categoria', 
+                         '$i_correo', 
+                         '$i_estado', 
+                         '$i_web', 
+                         '$i_local', 
+                         '$i_local_2', 
+                         '$i_local_3',
+                         '$i_movil',
+                         'icono',
+                         '$i_direccion',
+                         'position_empresa',
+                         'positionmap_empresa',
+                         'horario_empresa')";
+
+    
+    $result = mysql_query($sql);
+    header('Location: http://keysystems.com.ve/tulocalidad/procesado'); 
 
 ?>
